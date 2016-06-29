@@ -4,7 +4,6 @@ Vkontakte Open API for websites for use with Browserify.
 To make the story simple:
 =========================
 
-Type the following in your terminal:
 
 ```
 VK = require("vk-openapi");
