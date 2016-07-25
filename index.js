@@ -1714,8 +1714,10 @@ if (!VK.Util) {
   };
 }
 
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   module.exports = VK;
-else
+}
+if (typeof window !== 'undefined') {
   window.VK = VK;
+}
 })();
